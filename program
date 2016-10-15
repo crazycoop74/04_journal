@@ -1,0 +1,25 @@
+def main():
+    print_header()
+    run_event_loop()
+
+
+def print_header():
+    print('-----------------------------------------------')
+    print('              Journal App                      ')
+    print('-----------------------------------------------')
+
+
+def run_event_loop():
+    print('What would you like to do?')
+
+    cmd = input('[L]ist entries, [A]dd entries,  E[x]it: ')
+
+    if cmd == 'L':
+        print("L")
+
+
+    elif cmd == 'A':
+        print("A")
+
+
+main()
